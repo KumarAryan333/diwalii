@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎆 Happy Diwali - Festival of Lights 🎆</title>
+    <link rel="stylesheet" href="diwali.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <marquee>WISHING YOU A VERY HAPPY DIWALI BY KUMAR ARYAN</marquee>
+    <!-- Background Elements -->
+    <div class="stars"></div>
+    <div class="moon"></div>
+    
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="diya-container">
+                <div class="diya diya-1">🪔</div>
+                <div class="diya diya-2">🪔</div>
+                <div class="diya diya-3">🪔</div>
+                <div class="diya diya-4">🪔</div>
+                <div class="diya diya-5">🪔</div>
+            </div>
+            <h1 class="main-title">
+                <span class="title-word">Happy</span>
+                <span class="title-word">Diwali</span>
+                <span class="title-word">2025</span>
+            </h1>
+            <p class="subtitle">Festival of Lights • Festival of Love • Festival of Joy</p>
+        </header>
+
+        <!-- Love Message Section -->
+        <section class="love-section">
+            <div class="love-card">
+                <div class="heart-container">
+                    <div class="heart heart-1">💖</div>
+                    <div class="heart heart-2">💕</div>
+                    <div class="heart heart-3">💗</div>
+                    <div class="heart heart-4">💝</div>
+                    <div class="heart heart-5">💘</div>
+                </div>
+                <h2 class="love-title">With Lots of Love 💕</h2>
+                <p class="love-message">
+                    May this Diwali bring endless joy, prosperity, and love to your life. 
+                    Let the divine light of Diwali illuminate your path to success and happiness. 
+                    Wishing you and your family a blessed and joyous Diwali filled with love, laughter, and countless memories!
+                </p>
+                <div class="blessings">
+                    <div class="blessing">🌟 May your life be filled with light</div>
+                    <div class="blessing">🎆 May your dreams come true</div>
+                    <div class="blessing">💝 May love surround you always</div>
+                    <div class="blessing">✨ May prosperity be yours</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Crackers Section -->
+        <section class="crackers-section">
+            <h2 class="section-title">🎆 Crackers & Fireworks 🎆</h2>
+            <div class="crackers-grid">
+                <div class="cracker-item" onclick="burstCracker(this)">
+                    <div class="cracker cracker-1">🧨</div>
+                    <p>Click Me!</p>
+                </div>
+                <div class="cracker-item" onclick="burstCracker(this)">
+                    <div class="cracker cracker-2">🧨</div>
+                    <p>Click Me!</p>
+                </div>
+                <div class="cracker-item" onclick="burstCracker(this)">
+                    <div class="cracker cracker-3">🧨</div>
+                    <p>Click Me!</p>
+                </div>
+                <div class="cracker-item" onclick="burstCracker(this)">
+                    <div class="cracker cracker-4">🧨</div>
+                    <p>Click Me!</p>
+                </div>
+                <div class="cracker-item" onclick="burstCracker(this)">
+                    <div class="cracker cracker-5">🧨</div>
+                    <p>Click Me!</p>
+                </div>
+                <div class="cracker-item" onclick="burstCracker(this)">
+                    <div class="cracker cracker-6">🧨</div>
+                    <p>Click Me!</p>
+                </div>
+                <div class="cracker-item" onclick="burstCracker(this)">
+                    <div class="cracker cracker-7">🧨</div>
+                    <p>Click Me!</p>
+                </div>
+                <div class="cracker-item" onclick="burstCracker(this)">
+                    <div class="cracker cracker-8">🧨</div>
+                    <p>Click Me!</p>
+                </div>
+                <div class="cracker-item" onclick="burstCracker(this)">
+                    <div class="cracker cracker-9">🧨</div>
+                    <p>Click Me!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fireworks Display -->
+        <section class="fireworks-section">
+            <h2 class="section-title">✨ Fireworks Show ✨</h2>
+            <div class="fireworks-container">
+                <div class="firework firework-1"></div>
+                <div class="firework firework-2"></div>
+                <div class="firework firework-3"></div>
+                <div class="firework firework-4"></div>
+                <div class="firework firework-5"></div>
+                <div class="firework firework-6"></div>
+                <div class="firework firework-7"></div>
+                <div class="firework firework-8"></div>
+            </div>
+            <button class="fireworks-btn" onclick="triggerFireworks()">
+                🎆 Launch Fireworks 🎆
+            </button>
+        </section>
+
+        <!-- Sparkles Section -->
+        <section class="sparkles-section">
+            <div class="sparkles-container">
+                <div class="sparkle sparkle-1">✨</div>
+                <div class="sparkle sparkle-2">✨</div>
+                <div class="sparkle sparkle-3">✨</div>
+                <div class="sparkle sparkle-4">✨</div>
+                <div class="sparkle sparkle-5">✨</div>
+                <div class="sparkle sparkle-6">✨</div>
+                <div class="sparkle sparkle-7">✨</div>
+                <div class="sparkle sparkle-8">✨</div>
+                <div class="sparkle sparkle-9">✨</div>
+                <div class="sparkle sparkle-10">✨</div>
+                <div class="sparkle sparkle-11">✨</div>
+                <div class="sparkle sparkle-12">✨</div>
+                <div class="sparkle sparkle-13">✨</div>
+                <div class="sparkle sparkle-14">✨</div>
+                <div class="sparkle sparkle-15">✨</div>
+            </div>
+        </section>
+
+        <!-- Quotes Section -->
+        <section class="quotes-section">
+            <h2 class="section-title">💫 Diwali Quotes 💫</h2>
+            <div class="quotes-container">
+                <div class="quote-card">
+                    <p>"May the divine light of Diwali spread into your life, bringing peace, prosperity, happiness and good health."</p>
+                    <div class="quote-author">- Diwali Blessing</div>
+                </div>
+                <div class="quote-card">
+                    <p>"Let this Diwali bring success and prosperity to your life. May you be blessed with happiness, joy, and peace."</p>
+                    <div class="quote-author">- Festival Wishes</div>
+                </div>
+                <div class="quote-card">
+                    <p>"Light a lamp of love! Blast a chain of sorrow! Shoot a rocket of prosperity! Fire a flowerpot of happiness!"</p>
+                    <div class="quote-author">- Diwali Message</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="lamp-row">
+                    <span class="lamp">🪔</span>
+                    <span class="lamp">🪔</span>
+                    <span class="lamp">🪔</span>
+                    <span class="lamp">🪔</span>
+                    <span class="lamp">🪔</span>
+                </div>
+                <p class="footer-message">
+                    Wishing you a very Happy Diwali filled with love, light, and countless blessings! 
+                    May this festival bring you closer to your dreams and fill your life with eternal happiness.
+                </p>
+                <div class="social-links">
+                    <span class="social-link">💖</span>
+                    <span class="social-link">🎆</span>
+                    <span class="social-link">✨</span>
+                    <span class="social-link">🪔</span>
+                    <span class="social-link">💝</span>
+                </div>
+                <p class="copyright">Made with 💕 and lots of 🧨 for Diwali 2025</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Particle Effects -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Audio Controls -->
+    <div class="audio-controls">
+        <button class="audio-btn" onclick="toggleAudio()">
+            <i class="fas fa-volume-up"></i>
+        </button>
+    </div>
+
+    <script src="diwali.js"></script>
+</body>
+</html>
